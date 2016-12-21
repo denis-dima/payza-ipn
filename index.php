@@ -29,7 +29,7 @@
 <body>
 
 <form method="post" action="https://secure.payza.com/checkout">
-    <input type="hidden" name="ap_merchant" value="denis.dima@sevio.ro"/>
+    <input type="hidden" name="ap_merchant" value="youremail@domain.com"/>
     <input type="hidden" name="ap_test" value="1"/>
     <input type="hidden" name="ap_purchasetype" value="item"/>
     <input type="hidden" name="ap_itemname" value="MP3 Player"/>
@@ -45,8 +45,8 @@
     <input type="hidden" name="apc_1" value="Blue"/>
     <input type="hidden" name="apc_2" value="UE plug"/>
     <input type="hidden" name="ap_ipnversion" value="2"/>
-    <input type="hidden" name="ap_returnurl" value="http://www.botlist.net/payza-ipn/finish.html"/>
-    <input type="hidden" name="ap_cancelurl" value="http://www.botlist.net/payza-ipn/cancel.html"/>
+    <input type="hidden" name="ap_returnurl" value="http://www.example.com/finish.html"/>
+    <input type="hidden" name="ap_cancelurl" value="http://www.example.com/cancel.html"/>
 
     <input type="image" src="https://www.payza.com/images/payza-buy-now.png"/>
     <form>
